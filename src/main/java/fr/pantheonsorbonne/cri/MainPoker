@@ -1,0 +1,14 @@
+package fr.pantheonsorbonne.cri;
+public abstract class MainPoker{
+    private final Card[] cards ;
+
+    public MainPoker(Card[] cards){
+        this.cards = cards;
+    }
+
+    public abstract int getForce();
+
+    public abstract String getName();
+
+    
+}

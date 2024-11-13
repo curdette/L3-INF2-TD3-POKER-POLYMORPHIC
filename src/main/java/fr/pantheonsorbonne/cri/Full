@@ -1,0 +1,15 @@
+public class Full extends MainPoker{
+    public Full(Card[] cards) {
+        super(cards);
+    }
+
+    @Override
+    public int getForce() {
+        return 7; 
+    }
+
+    @Override
+    public String getName() {
+        return "Full";
+    }
+}
